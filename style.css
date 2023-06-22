@@ -1,0 +1,367 @@
+/*body
+    {
+        background-color: rgb(192, 192, 192);
+    }*/
+.tabl_menu
+    {
+        border: 1px solid rgb(255, 255, 255);
+        height: 80px;
+        background-color: rgb(77, 255, 166);
+        background: linear-gradient(90deg,
+        rgb(0, 58, 31) 0%,
+        rgb(104, 255, 44) 35%,
+        rgb(0, 155, 46) 100%);
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .5);
+    }
+.tabl_titre
+    {
+        
+        height: 80px;
+        width: 300px;
+        color: white;
+        font-size: 45px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+    }
+.txt_tuma
+    {
+        margin-left: 30px;
+        margin-top: 14px;
+    }
+.uma
+    {
+        color: rgba(255, 255, 255);
+        font-style: unset;
+        font-size: 25px;
+        font-weight: none;
+    }
+.logo_site
+    {
+        border: 1px solid black;
+        width: 70px;
+        height: 70px;
+        margin-left: 140px;
+        margin-top: -105px;
+    }
+.entrer_recherche
+    {
+        margin-left: 800px;
+        margin-top: -200px;
+    }
+.tabl_btn_decon
+    {
+        
+        height: 80px;
+        margin-top: -90px;
+        margin-left: 1140px;
+        width: 185px;
+    }
+.btn_decon
+    {
+        border: 2px solid white;
+        color: white;
+        margin-top: 20px;
+        background-color: rgba(255, 255, 255, .0);
+        width: 130px;
+        height: 30px;
+        border-radius: 10px;
+        margin-left: 30px;
+    }
+.btn_decon:hover
+    {
+        border: 2px solid rgb(104, 255, 44);
+        color: rgb(104, 255, 44);
+        box-shadow: 0px 0px 15px rgb(0, 58, 31);
+        text-shadow: 0px 0px 15px rgb(0, 58, 31);
+    }
+.tabl_utilisa
+    {
+        border: 1px solid white;
+        margin-left: 50px;
+        margin-top: 40px;
+        width: 900px;
+        height: 60px;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .5);
+        border-radius: 10px;
+    }
+.tabl_pic_profil
+    {
+        border: 1px solid rgb(0, 155, 46);
+        width: 50px;
+        height: 50px;
+        margin-top: 4px;
+        margin-left: 10px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgb(0, 182, 15, .5);
+    }
+.tabl_nom_utili
+    {
+
+        width: 160px;
+        height: 30px;
+        margin-left: 65px;
+        margin-top: -40px;
+    }
+.nom_utilisat
+    {
+        text-transform: capitalize;
+        color: rgb(0, 165, 88);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 23px;
+        margin-left: 5px;
+    }
+.tabl_icone_aide
+    {
+        border: 1px solid rgb(255, 255, 255);
+        width: 35px;
+        height: 35px;
+        margin-top: -33px;
+        margin-left: 792px;
+        border-radius: 50%;
+        background: linear-gradient(90deg,
+        rgb(0, 18, 36) 0%,
+        rgb(0, 34, 109) 35%,
+        rgb(0, 16, 59) 100%);
+    }
+.propos
+    {
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-top: 8px;
+        font-size: 20px;
+        margin-left: 0px;
+        text-align: center;
+    }
+.navbar
+    {
+        border: 1px solid rgb(255, 255, 255);
+        width: 500px;
+        height: 40px;
+        margin-left: 330px;
+        margin-top: -38px;
+    }
+.tabl_message
+    {
+        border: 2px solid rgb(0, 165, 88);
+        width: 125px;
+        height: 35px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255, .0);
+        margin-left: 40px;
+    }
+.tabl_message:hover
+    {
+        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        border: 2px solid white;
+        background-color: rgb(0, 155, 46);
+        color: white;
+        text-shadow: 0px 0px 5px white;
+    }
+.txt_menu
+    {
+        color: rgb(0, 165, 88);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 18px;
+        margin-top: -24px;
+        margin-left: 35px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+/*.txt_menu:hover
+    {
+        text-shadow: 0px 0px 5px rgb(0, 58, 31);
+    }*/
+.logo_messageri
+    {
+        
+        height: 25px;
+        width: 25px;
+        margin-left: 6px;
+        margin-top: 5px;
+    }
+.tabl_livrer
+    {
+        border: 2px solid rgb(0, 165, 88);
+        width: 125px;
+        height: 35px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255, .0);
+        margin-left: 180px;
+        margin-top: -39px;
+    }
+.tabl_livrer:hover
+    {
+        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        border: 2px solid white;
+        background-color: rgb(0, 155, 46);
+        color: white;
+        text-shadow: 0px 0px 5px white;
+    }
+.tabl_commande
+    {
+        border: 2px solid rgb(0, 165, 88);
+        width: 125px;
+        height: 35px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255, .0);
+        margin-left: 320px;
+        margin-top: -39px;
+    }
+.tabl_commande:hover
+    {
+        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        border: 2px solid white;
+        background-color: rgb(0, 155, 46);
+        color: white;
+        text-shadow: 0px 0px 5px white;
+    }
+#cmd
+    {
+        margin-left: -7px;
+    }
+.tabl_descript
+    {
+        border: 1px solid white;
+        margin-left: 50px;
+        margin-top: 30px;
+        width: 900px;
+        height: 500px;
+        box-shadow: 0px 0px 15px rgb(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+.tabl_paragraphe
+    {
+        border: 1px solid black;
+        width: 500px;
+        height: 450px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+.tabl_img_descri
+    {
+        
+        width: 320px;
+        height: 450px;
+        margin-top: -450px;
+        margin-left: 550px;
+    }
+.tabl_configuration
+    {
+        border: 1px solid white;
+        margin-left: 980px;
+        margin-top: -595px;
+        height: 595px;
+        width: 300px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+    }
+.tabl_titre_config
+    {
+        border: 1px solid black;
+        width: 300px;
+        height: 60px;   
+    }
+.tabl_adresse
+    {
+        border: 1px solid rgb(255, 255, 255);
+        width: 1230px;
+        margin-left: 50px;
+        margin-top: 30px;
+        height: 120px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+    }
+.tabl_mail
+    {
+        border: 1px solid black;
+        margin-left: 20px;
+        margin-top: 13px;
+        width: 370px;
+        height: 90px;
+    }
+.tabl_twitter
+    {
+        border: 1px solid black;
+        margin-top: -90px;
+        width: 370px;
+        height: 90px;
+        margin-left: 430px;
+    }
+.tabl_amazone
+    {
+        border: 1px solid black;
+        margin-top: -90px;
+        width: 370px;
+        height: 90px;
+        margin-left: 840px;
+    }
+.tabl_copyright
+    {
+        border: 1px solid black;
+        margin-left: 0px;
+        margin-top: 40px;
+        height: 50px;
+    }
+
+.tabl_connect
+    {
+        border: 1px solid black;
+        height: 50px;
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .3);
+    }
+.tabl_tabls
+    {
+        border: 1px solid black;
+        margin-top: 50px;
+        height: 450px;
+        width: 750px;
+        margin-left: 270px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+    }
+.tabl_img_connexion
+    {
+        border: 1px solid black;
+        height: 400px;
+        width: 350px;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+.tabl_input_connexi
+    {
+        border: 1px solid black;
+        border: 1px solid black;
+        height: 400px;
+        width: 350px;
+        margin-top: -400px;
+        margin-left: 375px;
+    }
+.tabl_txt_connexion
+    {
+        border: 1px solid black;
+        width: 350px;
+        height: 80px;
+    }
+.entrer_nom
+    {
+        margin-top: 25px;
+        margin-left: 30px;
+        width: 280px;
+        height: 25px;
+        border-radius: 10px;
+        border: 1px solid black;
+        text-align: center;
+    }
+#indique_mdp
+    {
+        text-align: center;
+        margin-left: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+    }
+.btn_connexion
+    {
+        margin-left: 30px;
+        width: 280px;
+        height: 30px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
