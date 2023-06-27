@@ -8,14 +8,16 @@
     <body>
         <div class="tabl_menu">
             <div class="tabl_titre">
-                <p class="txt_tuma">TUMA</p>
+                <p class="txt_tuma">T<span class="uma">UMA</span></p>
                 <div class="logo_site">
 
                 </div>
+                
             </div>
             <div class="tabl_btn_decon">
-                <input type="button" value="Deconnexion" class="btn_decon">
+                <a href="index.html"><input type="button" value="Deconnexion" class="btn_decon" onclick="connection()"></a>
             </div>
+            <input type="search" placeholder="recherche" class="entrer_recherche">
         </div>
         <div class="tabl_utilisa">
             <div class="tabl_pic_profil">
@@ -28,21 +30,21 @@
                 <p class="propos">?</p>
             </div></a>
             <div class="navbar">
-                <a href="#"><div class="tabl_message">
+                <a href="messagerie.html"><div class="tabl_message">
                     <div class="logo_messageri">
-                        <img src="photo/messenger.png" width="25px" style="border-radius: 50px; height: 25px;">
+                        <img src="photo/messeng.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
                     <p class="txt_menu">Messages</p>
                 </div></a>
                 <a href="#"><div class="tabl_livrer">
                     <div class="logo_messageri">
-
+                        <img src="photo/sho.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
                     <p class="txt_menu">Livraison</p>
                 </div></a>
                 <a href="#"><div class="tabl_commande">
                     <div class="logo_messageri">
-
+                        <img src="photo/comman.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
                     <p class="txt_menu"><span id="cmd">Commande</span></p>
                 </div></a>
@@ -53,7 +55,7 @@
 
             </div>
             <div class="tabl_img_descri">
-                <img src="photo/descri.jpg">
+                <img src="photo/descri.png">
             </div>
         </div>
         <div class="tabl_configuration">
@@ -72,8 +74,13 @@
 
             </div>
         </div>
-        <div class="tabl_copyright">
-            <p>Copyright AGape_AG7 - Tous droits réservés</p>
+        <div class="tabl_copyright" style="background-color: black;">
+            <p style="color: white;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Copyright AGape_AG7 - Tous droits réservés</p>
         </div>
     </body>
+    <script type="text/javascript">
+        function connection(){
+            document.location(href="index.html");
+        }
+    </script>
 </html>

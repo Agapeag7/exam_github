@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Créer compte</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="tabl_connect">
+
+        </div>
+        <div class="tabl_tabls">
+            <div class="tabl_img_connexion">
+                <img src="photo/a_creer.png" width="350px" style="margin-top: 30px;">
+            </div>
+            <div class="tabl_input_connexi">
+                <div class="tabl_txt_connexion">
+                    <p style="font-size: 45px;margin-top: 20px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(255, 255, 255);text-shadow: 0px 0px 10px rgb(78, 51, 0);font-weight: bold;">Créer compte</p>
+                </div>
+                <input type="text" class="entrer_nom" placeholder="Entrer votre nom" id="nom"><br>
+                <input type="text" class="entrer_nom" placeholder="Entrer votre post-nom" id="post"><br>
+                <input type="password" class="entrer_nom" placeholder="Entrer votre mot de passe" oninput="verification()" id="mot_pass"><br>
+                <br>
+                <label id="indique_mdp"></label><br><br>
+                <input type="button" class="btn_connexion" onclick="clic()" value="créer compte">
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function verification(){
+            var mdp=document.getElementById("mot_pass").value;
+            if(mdp.length >= 1 && mdp.length <= 5){
+                document.getElementById("indique_mdp").innerHTML="mot de passe trop court";
+            }
+            else if(mdp.length > 5 && mdp.length <= 10){
+                document.getElementById("indique_mdp").innerHTML="mot de passe moyen";
+            }
+            else if(mdp.length > 10){
+                document.getElementById("indique_mdp").innerHTML="mot de passe fiable";
+            }
+        }
+        function clic(){
+            var nom=document.getElementById("nom").value;
+            var post=document.getElementById("post").value;
+            var mdp=document.getElementById("mot_pass").value;
+            if(nom == "" || post == "" || mdp == ""){
+                alert("Veuillez entrer tout les coordonnées");
+            }
+            else if(mdp.length <= 5){
+                alert("mot de passe trop court");
+            }
+            else{
+                document.location(href="index.html");
+            }
+        }
+    </script>
+</html>

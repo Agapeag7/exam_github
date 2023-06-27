@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>connexion</title>
+        <title>index</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -11,28 +11,30 @@
         </div>
         <div class="tabl_tabls">
             <div class="tabl_img_connexion">
-
+                <img src="photo/175140866-online-shopping-concept-in-modern-flat-design-woman-chooses-clothes-and-other-goods-using-laptop.png" width="350px" style="margin-top: 30px;">
             </div>
             <div class="tabl_input_connexi">
                 <div class="tabl_txt_connexion">
-                    <p style="font-size: 45px;margin-top: 20px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: black;font-weight: bold;">Connexion</p>
+                    <p style="font-size: 45px;margin-top: 20px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(255, 255, 255);text-shadow: 0px 0px 10px rgb(78, 51, 0);font-weight: bold;">Connexion</p>
                 </div>
-                <input type="text" class="entrer_nom" placeholder="Entrer votre nom"><br>
-                <input type="password" class="entrer_nom" placeholder="Entrer votre mot de passe" oninput="verification()" id="mot_pass"><br>
+                <input type="text" class="entrer_nom" placeholder="Entrer votre nom" id="nom"><br>
+                <input type="password" class="entrer_nom" placeholder="Entrer votre mot de passe" id="mot_pass"><br>
+                <br><br>
+                <input type="button" onclick="verification()" class="btn_connexion" value="connexion"><br>
                 <br>
-                <label id="indique_mdp"></label><br><br>
-                <input type="button" class="btn_connexion" value="connexion">
+                <a href="creer_compte.html"><label class="mdp_oublier">Créer un compte</label></a>
             </div>
         </div>
     </body>
     <script type="text/javascript">
         function verification(){
-            mdp=document.getElementById("mot_pass").value;
-            if(mdp.length >= 1 && mdp.length <= 5){
-                document.getElementById("indique_mdp").innerHTML="mot de passe trop court";
+            var nom=document.getElementById("nom").value;
+            var motpass=document.getElementById("mot_pass").value;
+            if(nom == "" || motpass == ""){
+                alert("Entrer tout les coordonnées svp");
             }
-            else if(mdp.length > 5 && mdp.length < 10){
-                document.getElementById("indique_mdp").innerHTML="mot de passe moyen";
+            else if(nom.length > 0 && motpass.length > 3){
+                
             }
         }
     </script>

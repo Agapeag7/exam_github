@@ -8,10 +8,10 @@
         height: 80px;
         background-color: rgb(77, 255, 166);
         background: linear-gradient(90deg,
-        rgb(0, 58, 31) 0%,
-        rgb(104, 255, 44) 35%,
-        rgb(0, 155, 46) 100%);
-        box-shadow: 0px 5px 10px rgb(0, 0, 0, .5);
+        rgb(185, 121, 0) 0%,
+        rgb(255, 196, 0) 35%,
+        rgb(230, 157, 1) 100%);
+        box-shadow: 0px 5px 10px rgb(0, 0, 0, .3)
     }
 .tabl_titre
     {
@@ -58,7 +58,7 @@
     }
 .btn_decon
     {
-        border: 2px solid white;
+        border: 2px solid rgb(78, 51, 0);
         color: white;
         margin-top: 20px;
         background-color: rgba(255, 255, 255, .0);
@@ -69,10 +69,10 @@
     }
 .btn_decon:hover
     {
-        border: 2px solid rgb(104, 255, 44);
-        color: rgb(104, 255, 44);
-        box-shadow: 0px 0px 15px rgb(0, 58, 31);
-        text-shadow: 0px 0px 15px rgb(0, 58, 31);
+        border: 2px solid white;
+        color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 15px rgb(78, 51, 0);
+        text-shadow: 0px 0px 15px rgb(255, 255, 255);
     }
 .tabl_utilisa
     {
@@ -86,13 +86,13 @@
     }
 .tabl_pic_profil
     {
-        border: 1px solid rgb(0, 155, 46);
+        border: 1px solid rgb(230, 157, 1);
         width: 50px;
         height: 50px;
         margin-top: 4px;
         margin-left: 10px;
         border-radius: 50%;
-        box-shadow: 0px 0px 10px rgb(0, 182, 15, .5);
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
     }
 .tabl_nom_utili
     {
@@ -105,7 +105,7 @@
 .nom_utilisat
     {
         text-transform: capitalize;
-        color: rgb(0, 165, 88);
+        color: rgb(78, 51, 0);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 23px;
         margin-left: 5px;
@@ -142,7 +142,7 @@
     }
 .tabl_message
     {
-        border: 2px solid rgb(0, 165, 88);
+        border: 2px solid rgb(230, 157, 1);
         width: 125px;
         height: 35px;
         border-radius: 15px;
@@ -151,15 +151,15 @@
     }
 .tabl_message:hover
     {
-        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
         border: 2px solid white;
-        background-color: rgb(0, 155, 46);
+        background-color: rgb(230, 157, 1);
         color: white;
         text-shadow: 0px 0px 5px white;
     }
 .txt_menu
     {
-        color: rgb(0, 165, 88);
+        color: rgb(230, 157, 1);
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 18px;
         margin-top: -24px;
@@ -181,7 +181,7 @@
     }
 .tabl_livrer
     {
-        border: 2px solid rgb(0, 165, 88);
+        border: 2px solid rgb(230, 157, 1);
         width: 125px;
         height: 35px;
         border-radius: 15px;
@@ -191,15 +191,15 @@
     }
 .tabl_livrer:hover
     {
-        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
         border: 2px solid white;
-        background-color: rgb(0, 155, 46);
+        background-color: rgb(230, 157, 1);
         color: white;
         text-shadow: 0px 0px 5px white;
     }
 .tabl_commande
     {
-        border: 2px solid rgb(0, 165, 88);
+        border: 2px solid rgb(230, 157, 1);
         width: 125px;
         height: 35px;
         border-radius: 15px;
@@ -209,9 +209,9 @@
     }
 .tabl_commande:hover
     {
-        box-shadow: 0px 0px 10px rgb(0, 182, 15);
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
         border: 2px solid white;
-        background-color: rgb(0, 155, 46);
+        background-color: rgb(230, 157, 1);
         color: white;
         text-shadow: 0px 0px 5px white;
     }
@@ -253,12 +253,13 @@
         height: 595px;
         width: 300px;
         box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+        border-radius: 10px;
     }
 .tabl_titre_config
     {
-        border: 1px solid black;
+        
         width: 300px;
-        height: 60px;   
+        height: 100px;   
     }
 .tabl_adresse
     {
@@ -309,17 +310,21 @@
     }
 .tabl_tabls
     {
-        border: 1px solid black;
+        border: 1px solid rgb(230, 157, 1);
         margin-top: 50px;
         height: 450px;
         width: 750px;
         margin-left: 270px;
         border-radius: 20px;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, .5);
+        background: linear-gradient(90deg,
+        rgb(219, 143, 0) 0%,
+        rgb(255, 196, 0) 35%,
+        rgb(230, 157, 1) 100%);
     }
 .tabl_img_connexion
     {
-        border: 1px solid black;
+        
         height: 400px;
         width: 350px;
         margin-top: 25px;
@@ -327,16 +332,20 @@
     }
 .tabl_input_connexi
     {
-        border: 1px solid black;
-        border: 1px solid black;
-        height: 400px;
+        
+        height: 350px;
         width: 350px;
         margin-top: -400px;
         margin-left: 375px;
+        border-radius: 10px;
+    }
+.tabl_input_connexi:hover
+    {
+        box-shadow: 0px 0px 10px rgb(78, 51, 0, .5);
     }
 .tabl_txt_connexion
     {
-        border: 1px solid black;
+        
         width: 350px;
         height: 80px;
     }
@@ -347,8 +356,14 @@
         width: 280px;
         height: 25px;
         border-radius: 10px;
-        border: 1px solid black;
+        border: 1px solid rgb(78, 51, 0);
         text-align: center;
+        color: rgb(78, 51, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.entrer_nom:hover
+    {
+        border: 2px solid rgb(78, 51, 0);
     }
 #indique_mdp
     {
@@ -356,6 +371,7 @@
         margin-left: 30px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 15px;
+        color: rgb(78, 51, 0);
     }
 .btn_connexion
     {
@@ -363,5 +379,290 @@
         width: 280px;
         height: 30px;
         border-radius: 10px;
+        border: 2px solid rgb(78, 51, 0);
+        color: rgb(255, 255, 255);
+        background-color: rgb(117, 76, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+.btn_connexion:hover
+    {
+        background-color: rgb(59, 39, 0);
+    }
+.mdp_oublier
+    {
+        text-align: center;
+        margin-left: 35px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: rgb(78, 51, 0);
+    }
+.mdp_oublier:hover
+    {
+        text-shadow: 0px 0px 10px rgb(117, 76, 0);
+        font-weight: bold;
+        text-decoration: none;
+    }
+.tabl_tuma_msg
+    {
+        
+        height: 80px;
+        width: 250px;
+        color: white;
+        font-size: 45px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bold;
+        margin-left: 550px;
+    }
+.tabl_perso_dispo
+    {
+        border: 1px solid white;
+        margin-left: 50px;
+        margin-top: 40px;
+        height: 595px;
+        width: 300px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+.tabl_txt_parten
+    {
+        
+        width: 300px;
+        height: 50px;
+    }
+.txt_parten
+    {
+        color: rgb(59, 39, 0);
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-align: center;
+        font-size: 35px;
+        margin-top: 2px;
+        font-weight: bold;
+    }
+.tabl_photo_profil
+    {
+        border: 1px solid rgb(230, 157, 1);
+        width: 70px;
+        height: 70px;
+        margin-top: 15px;
+        margin-left: 65px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
+    }
+.tabl_nom
+    {
+        
+        width: 150px;
+        height: 50px;
+        margin-top: -60px;
+        margin-left: 140px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.tabl_partn_one
+    {
+        border: 1px solid rgb(255, 255, 255);
+        width: 250px;
+        height: 40px;
+        margin-left: 25px;
+        box-shadow: 0px 0px 10px rgb(59, 39, 0);
+        border-radius: 10px;
+    }
+.photo_partn
+    {
+        border: 2px solid rgb(59, 39, 0);
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        margin-top: 2px;
+        margin-left: 35px;
+    }
+.nom_partn
+    {
+        
+        width: 120px;
+        height: 20px;
+        margin-left: 70px;
+        margin-top: -28px;
+    }
+.nom
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(59, 39, 0);
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+    }
+.en_linge
+    {
+        
+        width: 10px;
+        height: 10px;
+        margin-left: 200px;
+        margin-top: -12px;
+        border-radius: 50%;
+        background-color: rgb(0, 255, 55);
+    }
+.tabl_messagerie
+    {
+        
+        margin-top: -595px;
+        margin-left: 375px;
+        border-radius: 10px;
+        height: 450px;
+        width: 600px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+    }
+.tabl_titre_msg
+    {
+        
+        width: 600px;
+        height: 50px;
+        border-bottom: 4px solid rgb(78, 51, 0);
+    }
+.tabl_msg_un
+    {
+        
+        width: 600px;
+        height: 140px;
+    }
+.dialogue_script
+    {
+        height: 140px;
+        width: 188px;
         border: 1px solid black;
+        margin-left: 360px;
+        background-image: url(photo/Sans.png);
+    }
+#msg_ecrit
+    {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(78, 51, 0);
+        font-size: 20px;
+        margin-top: 5px;
+    }
+.dialogue
+    {
+        
+        width: 600px;
+        height: 80px;
+        margin-top: 10px;
+        border-top: 4px solid rgb(51, 33, 0);
+    }
+.tabl_ico_emogi
+    {
+        
+        width: 40px;
+        height: 40px;
+        margin-left: 80px;
+        margin-top: 12px;
+        border-radius: 50%;
+    }
+.tabl_ico_emogi:hover
+    {
+        box-shadow: 0px 0px 10px rgb(78, 51, 0);
+    }
+.tabl_input_msg
+    {
+        
+        width: 350px;
+        height: 50px;
+        margin-left: 130px;
+        margin-top: -50px;
+    }
+.conversation
+    {
+        border: 1px solid rgb(51, 33, 0);
+        color: rgb(51, 33, 0);
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        height: 35px;
+        text-align: center;
+        width: 345px;
+        border-radius: 10px;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+.conversation:hover
+    {
+        border: 2px solid rgb(51, 33, 0);
+    }
+.tabl_envoi_msg
+    {
+        
+        width: 60px;
+        height: 50px;
+        margin-left: 490px;
+        margin-top: -45px;
+    }
+.tabl_expli_msg
+    {
+        border: 1px solid white;
+        height: 125px;
+        width: 600px;
+        margin-top: 10px;
+        margin-left: 375px;
+        border-radius: 10px;
+        background: linear-gradient(90deg,
+        rgb(185, 121, 0) 0%,
+        rgb(255, 196, 0) 35%,
+        rgb(230, 157, 1) 100%);
+    }
+.expli_msg
+    {
+        border: 1px solid black;
+        width: 300px;
+        height: 100px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+.adresse_expli
+    {
+        border: 1px solid black;
+        width: 250px;
+        margin-left: 330px;
+        margin-top: -100px;
+        height: 100px;
+    }
+.tabl_site_ext
+    {
+        border: 1px solid black;
+        height: 50px;
+        width: 250px;
+    }
+.adresse
+    {
+        border: 1px solid black;
+        height: 50px;
+        width: 50px;
+    }
+.tabl_page_lien
+    {
+        border: 1px solid white;
+        margin-left: 1000px;
+        margin-top: -595px;
+        height: 595px;
+        width: 300px;
+        box-shadow: 0px 0px 10px rgb(0, 0, 0, .6);
+        border-radius: 10px;
+    }
+.liens
+    {
+        text-align: center;
+        color: rgb(59, 39, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+    }
+.pub_msg
+    {
+        
+        width: 250px;
+        height: 250px;
+        margin-left: 25px;
+    }
+.tabl_notif
+    {
+        border: 1px solid black;
+        width: 250px;
+        margin-left: 25px;
+        height: 50px;
+        margin-top: 10px;
     }
