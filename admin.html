@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Administrateur</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="template.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="tabl_connect">
+
+        </div>
+        <div class="tabl_tabls">
+            <div class="tabl_img_connexion">
+                <img src="photo/vue-dessus-du-lieu-travail-ordinateur-homme-affaires-concept.png" width="350px" style="margin-top: 30px;">
+            </div>
+            <div class="tabl_input_connexi">
+                <div class="tabl_txt_connexion">
+                    <p style="font-size: 45px;margin-top: 20px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(255, 255, 255);text-shadow: 0px 0px 10px rgb(78, 51, 0);font-weight: bold;">Admin</p>
+                </div>
+                <input type="text" class="entrer_nom" placeholder="Entrer votre nom" id="nom"><br>
+                <input type="password" class="entrer_nom" placeholder="Entrer votre mot de passe" id="mot_pass"><br>
+                <br>
+                <input type="button" class="btn_connexion" onclick="clic()" value="connexion">
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        function clic(){
+            var nom=document.getElementById("nom").value;
+            var mdp=document.getElementById("mot_pass").value;
+            if(nom == "" || mdp == ""){
+                alert("Veuillez entrer tout les coordonnées");
+            }
+            else if(mdp.length <= 5){
+                alert("mot de passe trop court");
+            }
+            else{
+                document.location.href="livraison.html";
+            }
+        }
+    </script>
+</html>

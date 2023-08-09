@@ -4,6 +4,7 @@
         <title>Page d'accueil</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="template.css">
     </head>
     <body>
         <div class="tabl_menu">
@@ -12,12 +13,10 @@
                 <div class="logo_site">
 
                 </div>
-                
             </div>
             <div class="tabl_btn_decon">
-                <a href="index.html"><input type="button" value="Deconnexion" class="btn_decon" onclick="connection()"></a>
+                <input type="button" value="Deconnexion" class="btn_decon" onclick="connection()">
             </div>
-            <input type="search" placeholder="recherche" class="entrer_recherche">
         </div>
         <div class="tabl_utilisa">
             <div class="tabl_pic_profil">
@@ -30,57 +29,30 @@
                 <p class="propos">?</p>
             </div></a>
             <div class="navbar">
-                <a href="messagerie.html"><div class="tabl_message">
+                <a href="creer_compte.html"><div class="tabl_message">
                     <div class="logo_messageri">
                         <img src="photo/messeng.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
                     <p class="txt_menu">Messages</p>
                 </div></a>
-                <a href="#"><div class="tabl_livrer">
+                <a href="livraison.html"><div class="tabl_livrer">
                     <div class="logo_messageri">
                         <img src="photo/sho.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
-                    <p class="txt_menu">Livraison</p>
+                    <p class="txt_menu">Livrer</p>
                 </div></a>
-                <a href="#"><div class="tabl_commande">
+                <a href="admin.html"><div class="tabl_commande">
                     <div class="logo_messageri">
                         <img src="photo/comman.png" width="25px" style="border-radius: 50px; height: 25px;">
                     </div>
-                    <p class="txt_menu"><span id="cmd">Commande</span></p>
+                    <p class="txt_menu"><span id="cmd">Reçu</span></p>
                 </div></a>
             </div>
-        </div>
-        <div class="tabl_descript">
-            <div class="tabl_paragraphe">
-
-            </div>
-            <div class="tabl_img_descri">
-                <img src="photo/descri.png">
-            </div>
-        </div>
-        <div class="tabl_configuration">
-            <div class="tabl_titre_config">
-
-            </div>
-        </div>
-        <div class="tabl_adresse">
-            <div class="tabl_mail">
-
-            </div>
-            <div class="tabl_twitter">
-
-            </div>
-            <div class="tabl_amazone">
-
-            </div>
-        </div>
-        <div class="tabl_copyright" style="background-color: black;">
-            <p style="color: white;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Copyright AGape_AG7 - Tous droits réservés</p>
         </div>
     </body>
     <script type="text/javascript">
         function connection(){
-            document.location(href="index.html");
+            document.location.href="index.html";
         }
     </script>
 </html>

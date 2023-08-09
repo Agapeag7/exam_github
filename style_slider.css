@@ -1,0 +1,16 @@
+.slider-cont
+    {
+        width: 545px;
+        height: 153px;
+        overflow: hidden; 
+    }
+.slide
+    {
+        display: flex;
+        transition: transform 0.8s ease-in-out;
+    }      
+.slider img 
+    {
+        width: 153px;
+        height: 545px;
+    }

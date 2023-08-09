@@ -4,13 +4,14 @@
         <title>Messagerie</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="template.css">
     </head>
     <body>
         <div class="tabl_menu">
             <div class="tabl_tuma_msg">
                 <p class="txt_tuma">T<span class="uma">UMA</span></p>
                 <div class="logo_site">
-
+                    <img src="photo/icone.png" width="70px" style="height: 70px;">
                 </div>
                 
             </div>
@@ -83,30 +84,29 @@
             <div class="tabl_titre_msg">
                 <p class="txt_parten">Messages</p>
             </div>
-            <div class="tabl_msg_un">
-                <img src="photo/conversation.png" style="height: 140px; margin-left: 40px;">
-            </div><br>
-            <div class="tabl_msg_un">
-                <div class="dialogue_script">
-                    <p id="msg_ecrit"></p>
-                    <!--<img src="photo/conversat_script.png" style="height: 140px; ">-->
-                </div>
+            <div id="messages" class="tabl_msg_un">
+                
             </div>
             <div class="dialogue">
                 <div class="tabl_ico_emogi">
                     <a href="#"><img src="photo/emoji.png" width="40px" style="border-radius: 50%;"></a>
                 </div>
                 <div class="tabl_input_msg">
-                    <input type="text" class="conversation" placeholder="Entrer votre message" id="ecrit">
+                    <input id="userInput" type="text" class="conversation" placeholder="Tapez votre message ici" id="ecrit">
                 </div>
                 <div class="tabl_envoi_msg">
-                    <button onclick="transfert()" style="background-color: initial; border: 1px solid rgb(51, 33, 0, .0);"><img src="photo/envoyer.png" width="40px" style="margin-top: 3px;"></button>
+                    <button id="send-btn" onclick="sendMessage()" style="background-color: initial; border: 1px solid rgb(51, 33, 0, .0);"><img src="photo/envoyer.png" width="40px" style="margin-top: 3px;"></button>
                 </div>
             </div>
         </div>
+        <script src="script.js"></script>
         <div class="tabl_expli_msg">
             <div class="expli_msg">
-                
+                <p style="margin-top: 10px;">Vous pourrez même suivre votre livreur en 
+                    <br>temps réel grâce à notre système de suivi. 
+                    <br>Nous veillons à ce que votre expérience de livraison soit aussi 
+                    <br>transparente que possible.
+                </p>
             </div>
             <div class="adresse_expli">
                 <div class="tabl_site_ext">
@@ -125,8 +125,8 @@
             <div class="tabl_titre_config">
                 <p class="txt_parten" style="margin-top: 10px;">Liens</p>
             </div>
-            <a href="accueil.html"><p class="liens">Page d'accueil</p></a>
-            <a href="#"><p class="liens">Livraison</p></a>
+            <a href="index.html"><p class="liens">Page d'accueil</p></a>
+            <a href="livraison.html"><p class="liens">Livraison</p></a>
             <a href="#"><p class="liens">Commande</p></a>
             <div class="pub_msg">
                 <img src="photo/illustration-conceptuelle.jpg" width="250px">
@@ -139,20 +139,5 @@
             <p style="color: white;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Copyright AGape_AG7 - Tous droits réservés</p>
         </div>
     </body>
-    <script type="text/javascript">
-        function transfert(){
-            var msg_entrer=document.getElementById("ecrit").value;
-            var afficher=document.getElementById("msg_ecrit").value;
-            if(msg_entrer.length >= 20){
-                alert("Vous avez depassez la limite de caractère de votre messagerie");
-            }
-            else if(msg_entrer == ""){
-                alert("Entrer quelque chose dans le champ de messagerie svp");
-            }
-            else{
-                alert("message envoyer avec succès");
-                document.getElementById("msg_ecrit").value=msg_entrer;
-            }
-        }
-    </script>
+    
 </html>

@@ -1,41 +1,125 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>index</title>
+        <title>Page d'accueil</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="template.css">
     </head>
     <body>
-        <div class="tabl_connect">
-
-        </div>
-        <div class="tabl_tabls">
-            <div class="tabl_img_connexion">
-                <img src="photo/175140866-online-shopping-concept-in-modern-flat-design-woman-chooses-clothes-and-other-goods-using-laptop.png" width="350px" style="margin-top: 30px;">
-            </div>
-            <div class="tabl_input_connexi">
-                <div class="tabl_txt_connexion">
-                    <p style="font-size: 45px;margin-top: 20px;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color: rgb(255, 255, 255);text-shadow: 0px 0px 10px rgb(78, 51, 0);font-weight: bold;">Connexion</p>
+        <div class="tabl_menu">
+            <div class="tabl_titre">
+                <p class="txt_tuma">T<span class="uma">UMA</span></p>
+                <div class="logo_site">
+                    <img src="photo/icone.png" width="70px" style="height: 70px;">
                 </div>
-                <input type="text" class="entrer_nom" placeholder="Entrer votre nom" id="nom"><br>
-                <input type="password" class="entrer_nom" placeholder="Entrer votre mot de passe" id="mot_pass"><br>
-                <br><br>
-                <input type="button" onclick="verification()" class="btn_connexion" value="connexion"><br>
-                <br>
-                <a href="creer_compte.html"><label class="mdp_oublier">Créer un compte</label></a>
+                
             </div>
+            <div class="tabl_btn_decon">
+
+            </div>
+            <!--<input type="search" placeholder="recherche" class="entrer_recherche">-->
+        </div>
+        <div class="tabl_utilisa">
+            <div class="tabl_pic_profil">
+                <img src="photo/sh.png" width="40px" style="border-radius: 50px; height: 40px;margin-top: 5px;margin-left: 3px;">
+            </div>
+            <div class="tabl_nom_utili">
+                <label class="nom_utilisat">Accueil</label>
+            </div>
+            <a href="#"><div class="tabl_icone_aide">
+                <p class="propos">?</p>
+            </div></a>
+            <div class="navbar">
+                <a href="creer_compte.html"><div class="tabl_message">
+                    <div class="logo_messageri">
+                        <img src="photo/messeng.png" width="25px" style="border-radius: 50px; height: 25px;">
+                    </div>
+                    <p class="txt_menu">Nouveau</p>
+                </div></a>
+                <a href="connexion.html"><div class="tabl_livrer">
+                    <div class="logo_messageri">
+                        <img src="photo/sh.png" width="25px" style="border-radius: 50px; height: 25px;">
+                    </div>
+                    <p class="txt_menu">Connexion</p>
+                </div></a>
+                <a href="admin.html"><div class="tabl_commande">
+                    <div class="logo_messageri">
+                        <img src="photo/comman.png" width="25px" style="border-radius: 50px; height: 25px;">
+                    </div>
+                    <p class="txt_menu"><span id="cmd">Admin</span></p>
+                </div></a>
+            </div>
+        </div>
+        <div class="tabl_descript">
+            <div class="tabl_paragraphe">
+                <h1 class="chez_tuma"><em>Tuma</em>,</h1>
+                <p class="paragraphe">
+                    Nous sommes fiers de vous offrir un service de livraison rapide et fiable.
+                    <br>Que vous ayez besoin de faire livrer de la nourriture, des courses, 
+                    <br>des cadeaux ou tout autre produit, nous sommes là pour vous aider. 
+                    <br>Notre équipe de livreurs expérimentés se charge de prendre soin de 
+                    vos colis et de les livrer en toute sécurité à votre porte. 
+                    <br>Faites confiance à <em>Tuma</em> pour une livraison sans tracas !
+                    <br>
+                </p>
+                <p class="paragraphe">
+                        Notre processus de livraison en ligne est simple et pratique. 
+                    <br>Il vous suffit de sélectionner les articles que vous souhaitez 
+                    <br>faire livrer, de choisir votre adresse de livraison et de passer
+                    <br>votre commande. Nous vous tiendrons informé de l'avancement de 
+                    <br>votre livraison et vous pourrez même suivre votre livreur en temps 
+                    <br>réel grâce à notre système de suivi. Nous veillons à ce que votre 
+                    <br>expérience de livraison soit aussi transparente que possible.
+                </p>
+            </div>
+            <div class="tabl_img_descri">
+                <div class="slider-container">
+                    <div class="slider">
+                      <!--<img src="photo/image1.jpg" alt="Image 1">-->
+                      <img src="photo/image4.jpg" alt="Image 2">
+                      <img src="photo/image5.jpg" alt="Image 3">
+                      <img src="photo/image2.jpg" alt="Image 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tabl_configuration">
+            <div class="tabl_titre_config">
+
+            </div>
+        </div>
+        <div class="tabl_adresse">
+            <div class="tabl_mail">
+                
+            </div>
+            <div class="tabl_twitter">
+
+            </div>
+            <div class="tabl_amazone">
+                <p>
+                    LA SATISFACTION DE NOS CLIENTS  
+                    <br>EST NOTRE PRIORITÉ ABSOLU
+                </p>
+            </div>
+        </div>
+        <div class="tabl_copyright" style="background-color: black;">
+            <p style="color: white;text-align: center;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Copyright AGape_AG7 - Tous droits réservés</p>
         </div>
     </body>
     <script type="text/javascript">
-        function verification(){
-            var nom=document.getElementById("nom").value;
-            var motpass=document.getElementById("mot_pass").value;
-            if(nom == "" || motpass == ""){
-                alert("Entrer tout les coordonnées svp");
-            }
-            else if(nom.length > 0 && motpass.length > 3){
-                
-            }
+        const slider = document.querySelector('.slider');
+        let slideIndex = 0;
+        function showSlide(index) {
+            slider.style.transform = `translateX(-${index * 100}%)`;
         }
+        function slideNext() {
+            slideIndex++;
+            if (slideIndex > slider.children.length - 1) {
+                slideIndex = 0;
+            }
+            showSlide(slideIndex);
+        }
+        setInterval(slideNext, 3000);
     </script>
 </html>
